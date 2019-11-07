@@ -21,7 +21,7 @@ public class MyWebRequest : MonoBehaviour
 
     IEnumerator FetchURL()
     {
-        string url = "http://localhost/Database/getData.php";
+        string url = "http://26583.hosts2.ma-cloud.nl//Database/getData.php";
         WWW webRequest = new WWW(url);
 
         yield return webRequest;
