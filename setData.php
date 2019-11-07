@@ -1,9 +1,9 @@
 <?php
   $score=$_REQUEST['score'];
-  $host = 'localhost';
-  $user = 'root';
-  $password = '';
-  $database = 'unitytest';
+  $host = '127.0.0.1';
+  $user = 'c3666Pelle';
+  $password = '*********';
+  $database = 'td_score';
   //TODO: Player name?
   //TODO: sanitize input
   //if no score is defined, code won't work
