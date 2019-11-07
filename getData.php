@@ -1,7 +1,7 @@
 <?php
   $host = '127.0.0.1';
   $user = 'c3666Pelle';
-  $password = 'saai123';
+  $password = '***********';
   $database = 'c3666pboi';
     $conn = mysqli_connect($host, $user, $password, $database) or die('Failed to connect: ' . mysqli_error());
     
